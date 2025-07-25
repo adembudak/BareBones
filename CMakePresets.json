@@ -8,9 +8,12 @@
       "cacheVariables": {
         "CMAKE_C_COMPILER_WORKS": "ON",
         "CMAKE_CXX_COMPILER_WORKS": "ON",
-        "CMAKE_C_FLAGS": "-ffreestanding -O2 -Wall -Wextra",
-        "CMAKE_C_STANDARD": "99",
-        "CMAKE_C_EXTENSIONS": "ON"
+        "CMAKE_C_FLAGS": "-ffreestanding -Wall -Wextra",
+        "CMAKE_C_STANDARD": "17",
+        "CMAKE_C_EXTENSIONS": "ON",
+        "CMAKE_CXX_FLAGS": "-ffreestanding -fno-exceptions -fno-rtti -Wall -Wextra",
+        "CMAKE_CXX_STANDARD": "26",
+        "CMAKE_CXX_EXTENSIONS": "ON"
       }
     }
   ]
