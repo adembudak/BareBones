@@ -8,7 +8,7 @@ add_library(boot OBJECT)
 target_sources(boot PRIVATE boot.s)
 
 add_library(kernel OBJECT)
-target_sources(kernel PRIVATE kernel.c)
+target_sources(kernel PRIVATE kernel.cpp)
 
 set_target_properties(kernel PROPERTIES LINK_DEPENDS ${PROJECT_SOURCE_DIR}/linker.ld)
 
